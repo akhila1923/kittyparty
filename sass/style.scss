@@ -1,17 +1,25 @@
-@import url(utilities);
+@import "utilities";
+@import "stuff";
 
 *{
     padding: 0;
     margin: 0;
 }
 body{
-    background-color: #2D2D2D;
+    background-color: $secondary-color;
+}
+.round
+{
+    background: url(../images/round.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .wrapper
 {
     margin: 0 auto;
     width: 1100px;
-    background: url(../images/bg.png);
+  
+    
 
     .logo
     {
@@ -29,5 +37,96 @@ body{
 }
 h1
     {
-        color: #fff;
+        color: $primary-color;
     }
+.banner-heading
+{
+    h1
+    {
+        text-align: left;
+        margin-top: 130px;
+    }
+    
+}
+.mybtn
+    {
+        background-color: $btn-color;
+    }
+.coin
+{
+    svg
+    {
+        margin-top: 10%;
+    }
+}
+.sec2
+{
+    width: 1100px;
+    background-color: $black;
+    padding: 30px;
+    box-shadow: 15px 15px $shadow;
+
+    .mybtn-rate
+    {
+        background-color: $btn-color;
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
+    .graph
+    {
+        width: 80%;
+    }
+}
+.sec3
+{
+    .coin-box
+    {
+        width: 200px;
+        height: 230px;
+        
+    }
+    .dash
+    {
+        background-image: linear-gradient(#445BF1, #86CEF3);
+        margin:  0 9rem 0;
+    }
+    .bitcoin
+    {
+        background-image: linear-gradient(#F37520, #F1C45D);
+        margin: 10rem 0 0 3rem;
+    }
+    .monero
+    {
+        background-image: linear-gradient(#F11A1A, #EF8686);
+        margin: 10rem 0 0 15rem;
+    }
+    .tether
+    {
+        background-image: linear-gradient(#346CEC, #92ACE9);
+        margin: -5rem 0 0 3rem;
+    }
+    .polygon
+    {
+        background-image: linear-gradient(#7200AA, #E08BEE);
+        margin: -15rem 0 0 9rem;
+    }
+    .dai
+    {
+        background-image: linear-gradient(#EE5820, #EBDA6D);
+        margin: -5rem 0 0 15rem;
+    }
+    .marg-coin
+    {
+        margin: 10rem;
+    }
+    .coin-hd
+    {
+        margin-top: 20rem;
+    }
+    .polygon-bg
+    {
+        background: url(../images/polygons.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
