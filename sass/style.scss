@@ -59,6 +59,10 @@ h1
         margin-top: 10%;
     }
 }
+.sec1
+{
+    padding: 3rem 0;
+}
 .sec2
 {
     width: 1100px;
@@ -89,31 +93,47 @@ h1
     {
         background-image: linear-gradient(#445BF1, #86CEF3);
         margin:  0 9rem 0;
+        padding: 2rem 3rem;
     }
     .bitcoin
     {
         background-image: linear-gradient(#F37520, #F1C45D);
         margin: 10rem 0 0 3rem;
+        padding: 2rem 3rem;
+
+        h3
+        {
+            padding: 25px 10px;
+        }
     }
     .monero
     {
         background-image: linear-gradient(#F11A1A, #EF8686);
         margin: 10rem 0 0 15rem;
+        padding: 2rem 3rem;
+
+        h3
+        {
+            padding: 25px 10px;
+        }
     }
     .tether
     {
         background-image: linear-gradient(#346CEC, #92ACE9);
         margin: -5rem 0 0 3rem;
+        padding: 2rem 3rem;
     }
     .polygon
     {
         background-image: linear-gradient(#7200AA, #E08BEE);
         margin: -15rem 0 0 9rem;
+        padding: 2rem 3rem;
     }
     .dai
     {
         background-image: linear-gradient(#EE5820, #EBDA6D);
         margin: -5rem 0 0 15rem;
+        padding: 2rem 3rem;
     }
     .marg-coin
     {
@@ -123,7 +143,13 @@ h1
     {
         margin-top: 20rem;
     }
-    
+    h3
+    {
+        padding-top: 25px;
+        color: $primary-color;
+        font-weight: 600;
+        text-align: center;
+    }
 }
 .polygon-bg
     {
@@ -131,3 +157,19 @@ h1
         background-repeat: no-repeat;
         background-size: cover;
     }
+.plan {
+    h1
+    {
+        padding: 1rem;
+    }
+    p
+    {
+        padding: 1rem 1rem 0;
+        font-size: 1.25rem;
+        color: $primary-color;
+    }
+    a
+    {
+        padding: 1rem;
+    }
+}
