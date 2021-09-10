@@ -170,6 +170,34 @@ h1
     }
     a
     {
-        padding: 1rem;
+        margin: 1rem;
+    }
+}
+.round-icon
+{
+    width: 20rem;
+    background-color: #000;
+    border-radius: 10rem;
+    box-shadow: 10px 10px $shadow;
+    padding: 2rem;
+    height: 20rem;
+
+    .icon
+    {
+        width: 50%;
+        position: relative;
+        top: 51%;
+        left: 50%;
+        transform: translate(-50%, -70%);
+    }
+    h3
+    {
+        padding: .5rem;
+        color: $primary-color;
+        text-align: center;
+    }
+    .mt-5
+    {
+        margin-top: 3rem;
     }
 }

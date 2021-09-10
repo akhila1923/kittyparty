@@ -167,5 +167,34 @@ h1 {
 }
 
 .plan a {
-  padding: 1rem;
+  margin: 1rem;
+}
+
+.round-icon {
+  width: 20rem;
+  background-color: #000;
+  border-radius: 10rem;
+  -webkit-box-shadow: 10px 10px #1b1919;
+          box-shadow: 10px 10px #1b1919;
+  padding: 2rem;
+  height: 20rem;
+}
+
+.round-icon .icon {
+  width: 50%;
+  position: relative;
+  top: 51%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -70%);
+          transform: translate(-50%, -70%);
+}
+
+.round-icon h3 {
+  padding: .5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.round-icon .mt-5 {
+  margin-top: 3rem;
 }
