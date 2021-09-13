@@ -15,6 +15,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+nav
+{
+    button
+    {
+        background-color: $btn-color !important;
+    }
+}
+
+
 .wrapper
 {
     margin: 0 auto;
@@ -45,7 +54,7 @@ h1
     h1
     {
         text-align: left;
-        margin-top: 130px;
+        margin-top: 80px;
     }
     
 }

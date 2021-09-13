@@ -10,8 +10,38 @@ section {
 }
 
 @media only screen and (max-width: 480px) {
+  .round {
+    background-size: 485px !important;
+  }
+  section {
+    padding: 2rem 0 !important;
+  }
+  .wrapper {
+    margin: 0 auto;
+    width: 400px !important;
+  }
   .wrapper .logo {
-    width: 12%;
+    width: 30% !important;
+  }
+  .wrapper .sec1 .banner-heading {
+    margin-bottom: 5rem;
+  }
+  .wrapper .sec1 .banner-heading h1 {
+    margin-top: 0;
+  }
+  .wrapper .sec2 {
+    width: 400px;
+  }
+  .wrapper .sec2 .col-12 {
+    display: -ms-grid;
+    display: grid;
+    place-items: center;
+  }
+  .wrapper .sec-3 .polygon-bg {
+    display: none !important;
+  }
+  .wrapper .sec-3 .coin-hd {
+    margin-top: 0 !important;
   }
 }
 
@@ -28,6 +58,10 @@ body {
   background: url(../images/round.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+nav button {
+  background-color: #DA9C9C !important;
 }
 
 .wrapper {
@@ -53,7 +87,7 @@ h1 {
 
 .banner-heading h1 {
   text-align: left;
-  margin-top: 130px;
+  margin-top: 80px;
 }
 
 .mybtn {
