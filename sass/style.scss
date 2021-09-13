@@ -1,5 +1,6 @@
 @import "utilities";
 @import "stuff";
+@import "media";
 
 *{
     padding: 0;
@@ -195,9 +196,81 @@ h1
         padding: .5rem;
         color: $primary-color;
         text-align: center;
+        margin-top: 3rem !important;
     }
-    .mt-5
+    
+}
+.sec-round
+{
+    background: url(../images/round-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-card
+{
+    background: url(../images/card-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .card-back
     {
-        margin-top: 3rem;
+        background-color: $btn-color;
+        border-radius: 3rem;
+
+        .black
+        {
+            background-color: $black;
+            border-radius: 3rem;
+
+            .card-front
+            {
+                
+                border-radius: 3rem;
+                padding: 8rem 3rem;
+                background: url(../images/Ellipse.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
     }
+    
+}
+.card-des
+    {
+        text-align: center;
+    }
+.footer
+{
+    background-color: $black;
+    padding: 2rem 0 !important;
+
+    .social-icons
+    {
+        margin: -25px auto !important;
+        float: right;
+    }
+    p
+    {
+        margin-top: 1rem;
+        color: $primary-color;
+    }
+}
+.icon-m
+    {
+        margin: -105px;
+    }
+.md\:pt-0 {
+        padding-top: 0;
+}
+.md\:justify-end {
+    justify-content: flex-end;
+}
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.svg
+{
+    margin: 1rem;
 }
