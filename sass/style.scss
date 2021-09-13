@@ -205,7 +205,7 @@ h1
         padding: .5rem;
         color: $primary-color;
         text-align: center;
-        margin-top: 3rem !important;
+        margin-top: 3rem;
     }
     
 }
@@ -254,7 +254,7 @@ h1
 
     .social-icons
     {
-        margin: -25px auto !important;
+        
         float: right;
     }
     p
@@ -281,5 +281,5 @@ h1
 }
 .svg
 {
-    margin: 1rem;
+    margin: 0 1rem;
 }

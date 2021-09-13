@@ -10,7 +10,7 @@
     .wrapper
     {
         margin: 0 auto;
-        width: 400px !important;
+        width: 350px !important;
 
         .logo
         {
@@ -29,22 +29,482 @@
             }
         }
         .sec2 {
-            width: 400px;
+            width: 350px;
+            .mybtn-rate
+            {
+                margin: 3rem 0;
+            }
             .col-12
             {
                 display: grid;
                 place-items: center;
             }
         }
-        .sec-3
+        
+    }
+    .sec3
         {
-            .polygon-bg
+            .col-12
             {
-                display: none !important;
+                display: grid;
+                place-items: center;
             }
             .coin-hd {
                 margin-top: 0 !important;
             }
+            .bitcoin
+            {
+                margin: 2rem 0 !important;
+            }
+            .dash
+            {
+                margin: -7rem 3rem 0 !important;
+            }
+            .monero
+            {
+                margin: -5rem 0 0 !important;
+            }
+            .tether
+            {
+                margin: -5rem 0 0 !important;
+            }
+            .polygon
+            {
+                margin: -5rem 0 0 !important;
+            }
+
+            .dai
+            {
+                margin: -5rem 0 0 !important;
+            }
+        }
+    .polygon-bg
+    {
+        background: none !important;
+    }
+    .plan
+    {
+        margin-top: 5rem !important;
+
+        h1 {
+            padding: 0 !important;
+        }
+        p
+        {
+            padding: 0 !important;
+            margin-top: 3rem;
+        }
+        a
+        {
+            margin: 0 !important;
+        }
+    }
+    .round-icon
+    {
+        margin: 1rem auto;
+    }
+    .card-back
+    {
+        margin: 1rem auto;
+    }
+    .sec-card
+    {
+        background: none !important;
+    }
+    .footer
+    {
+        text-align: center;
+
+        .social-icons {
+            margin: -25px 0 !important;
+        }
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 720px)
+{
+    .round
+    {
+        background-size: 720px !important;
+    }
+    section {
+        padding: 2rem 0 !important;
+    }
+    .wrapper
+    {
+        margin: 0 auto;
+        width: 480px !important;
+
+        .logo
+        {
+            width: 30% !important;
+        }
+        .sec1 {
+            
+
+            .banner-heading 
+            {
+                margin-bottom: 5rem;
+                h1 {
+                
+                margin-top: 0;
+                }
+            }
+        }
+        .sec2 {
+            width: 480px;
+            .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+        }
+        
+    }
+    .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+    .sec3
+        {
+            .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+            .coin-hd {
+                margin-top: 0 !important;
+            }
+            .bitcoin
+            {
+                margin: 2rem 0 0 3rem !important;
+            }
+            .dash {
+                margin: -5rem 0 0 3rem !important;
+            }
+            .monero
+            {
+                margin: -5rem 0 0 3rem !important;
+            }
+            .polygon
+            {
+                margin: -5rem 0 0 3rem !important;
+            }
+            .dai
+            {
+                margin: -5rem 0 0 3rem !important;
+            }
+        }
+    .polygon-bg
+    {
+        background: none !important;
+    }
+    .plan
+    {
+        margin-top: 5rem !important;
+
+        h1 {
+            padding: 0 !important;
+        }
+        p
+        {
+            padding: 0 !important;
+            margin-top: 3rem;
+        }
+        a
+        {
+            margin: 0 !important;
+        }
+    }
+    .round-icon
+    {
+        margin: 1rem auto;
+    }
+    .card-back
+    {
+        margin: 1rem auto;
+    }
+    .sec-card
+    {
+        background: none !important;
+    }
+    .footer
+    {
+        text-align: center;
+
+        .social-icons {
+            margin: -25px 0 !important;
+        }
+    }
+}
+@media only screen and (min-width: 721px) and (max-width: 991px)
+{
+    .round
+    {
+        background-size: 991px !important;
+    }
+    section {
+        padding: 2rem 0 !important;
+    }
+    .wrapper
+    {
+        margin: 0 auto;
+        width: 720px !important;
+
+        .logo
+        {
+            width: 30% !important;
+        }
+        .sec1 {
+            
+
+            .banner-heading 
+            {
+                margin-bottom: 5rem;
+                h1 {
+                
+                margin-top: 0;
+                }
+            }
+        }
+        .sec2 {
+            width: 720px;
+            .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+        }
+        
+    }
+    .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+    .sec3
+        {
+            .coin-box {
+                width: 180px !important;
+                height: 205px !important;
+            }
+            .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+            .coin-hd {
+                margin-top: 0 !important;
+            }
+            .bitcoin
+            {
+                margin: 7rem 0 0 -7rem !important;
+
+                h3
+                {
+                    padding:  1rem 0 !important;
+                }
+            }
+            .dash {
+                margin: -5rem 0 0 -2rem !important;
+            }
+            .monero
+            {
+                margin: 7rem 0 0 3rem !important;
+            }
+            .tether{
+                margin: -5rem 0 0 -7rem !important;
+            }
+            .polygon
+            {
+                margin: -17rem 0 0 -2rem !important;
+            }
+            .dai
+            {
+                margin: -5rem 0 0 3rem !important;
+            }
+        }
+    .polygon-bg
+    {
+        background: none !important;
+    }
+    .plan
+    {
+        margin-top: 5rem !important;
+
+        h1 {
+            padding: 0 !important;
+        }
+        p
+        {
+            padding: 0 !important;
+            margin-top: 3rem;
+        }
+        a
+        {
+            margin: 0 !important;
+        }
+    }
+    .round-icon
+    {
+        width: 13rem !important;
+        height: 13rem !important;
+
+        h3
+        {
+            margin-top: 1rem !important;
+        }
+    }
+    .card-back
+    {
+        margin: 1rem auto;
+    }
+    .sec-card
+    {
+        background: none !important;
+    }
+    .footer
+    {
+        text-align: center;
+
+        .social-icons {
+            margin: -25px 0 !important;
+        }
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1080px)
+{
+    .round
+    {
+        background-size: 1080px !important;
+    }
+    section {
+        padding: 2rem 0 !important;
+    }
+    .wrapper
+    {
+        margin: 0 auto;
+        width: 990px !important;
+
+        .logo
+        {
+            width: 20% !important;
+        }
+        .sec1 {
+            
+
+            .banner-heading 
+            {
+                margin-bottom: 5rem;
+                h1 {
+                
+                margin-top: 0;
+                vertical-align: middle;
+                }
+            }
+        }
+        .sec2 {
+            width: 990px;
+            .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+        }
+        
+    }
+    .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+    .sec3
+        {
+            .coin-box {
+                width: 180px !important;
+                height: 205px !important;
+            }
+            .col-12
+            {
+                display: grid;
+                place-items: center;
+            }
+            .coin-hd {
+                margin-top: 0 !important;
+            }
+            .bitcoin
+            {
+                margin: 7rem 0 0 !important;
+
+                h3
+                {
+                    padding:  1rem 0 !important;
+                }
+            }
+            .dash {
+                margin: -5rem 0 0 4rem !important;
+            }
+            .monero
+            {
+                margin: 7rem 0 0 8rem !important;
+            }
+            .tether{
+                margin: -5rem 0 0 !important;
+            }
+            .polygon
+            {
+                margin: -17rem 0 0 4rem !important;
+            }
+            .dai
+            {
+                margin: -5rem 0 0 8rem !important;
+            }
+        }
+    .polygon-bg
+    {
+        background: none !important;
+    }
+    .plan
+    {
+        margin-top: 5rem !important;
+
+        h1 {
+            padding: 0 !important;
+        }
+        p
+        {
+            padding: 0 !important;
+            margin-top: 3rem;
+        }
+        a
+        {
+            margin: 0 !important;
+        }
+    }
+    .round-icon
+    {
+        width: 17rem !important;
+        height: 17rem !important;
+
+        h3
+        {
+            margin-top: 1rem !important;
+        }
+    }
+    .card-back
+    {
+        margin: 1rem auto;
+    }
+    .sec-card
+    {
+        background: none !important;
+    }
+    .footer
+    {
+        text-align: center;
+
+        .social-icons {
+            margin: -25px 0 !important;
         }
     }
     
